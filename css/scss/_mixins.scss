@@ -1,0 +1,61 @@
+@mixin font-size($font-size: 16){
+font-size : #{$font-size}px;
+font-size : #{$font-size / 10}rem; }
+
+@mixin text-overflow() {
+overflow : hidden;
+text-overflow : ellipsis;
+white-space : nowrap; }
+
+@mixin box-sizing($boxsize: border-box) {
+-webkit-box-sizing : $boxsize;
+-moz-box-sizing : $boxsize;
+-ms-box-sizing : $boxsize;
+box-sizing : $boxsize; }
+
+@mixin clearfix {
+*zoom : 1;
+&:before,
+&:after {
+display: table;
+content : ""; }
+&:after {
+clear : both; } }
+
+// For image replacement
+@mixin hide-text() {
+text-indent : 100%;
+white-space : nowrap;
+overflow : hidden; }
+
+// Hide from visual and speaking browsers
+@mixin hidden() {
+display : none !important;
+visibility : hidden; }
+
+// Hide but maintain layout
+@mixin invisible() {
+visibility : hidden; }
+
+// Hidden but available to speaking browsers
+@mixin visuallyhidden() {
+overflow : hidden;
+position : absolute;
+clip : rect(0 0 0 0);
+height : 1px;
+width : 1px;
+margin : -1px;
+padding : 0;
+border : 0;
+// Make visuallyhidden focusable with a keyboard
+
+&.focusable {
+
+&:active,
+&:focus {
+position : static;
+clip : auto;
+height : auto;
+width : auto;
+margin : 0;
+overflow: visible; } } }
