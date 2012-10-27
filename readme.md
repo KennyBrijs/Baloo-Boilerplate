@@ -12,40 +12,41 @@ This project is new: comments, questions and suggestions can be [tweeted to Balo
 
 
 ### Folder Structure
-1. css
-	1. fonts
+1. /css
+	1. /fonts
 
-		Font files that will be @font-faced go here
+		Font files go here (in css folder because they are part of **styling** the page)
 
-	2. img
+	2. /img
 
 		**Style** images go here (any image you link to in CSS like backgrounds etc.)
 
-	3. scss
+	3. /scss
 
 		Sass files are here (see “CSS Structure” beneath)
 
-2. images
+2. /images
 
 	**Content** images go here (any image you link to in HTML)
 
-3. js
-	1. coffee
+3. /js
+	1. /coffee
 
 		CoffeeScript goes here (/js/coffee/main.coffee compiles to /js/main.js)
 
-	2. vendor
+	2. /vendor
 
-		JavaScript plugins go here (e.g. slider plugins, &hellip;)
+		JavaScript plugins go here (e.g. jQuery, slider plugins, &hellip;)
 
 
 
-### CSS Structure <a id="css_structure"/>
-All the sass files are in the /css/scss folder and are imported in main.scss, which will compile to /css/main.css, in order to keep things organized.
+### CSS Structure
+All the sass files are in the /css/scss folder and are imported in main.**scss**, which will compile to /css/main.**css**, in order to keep things organized.
 
-The structure is as follows:
+The files are structured as follows:
 
 1. #### Reusable components
+
 	1. _fonts.scss
 		
 		Put your @font-face imports here. Fonts go in /css/fonts since they're part of the *style*, not the *content*
@@ -61,6 +62,10 @@ The structure is as follows:
 	4. _mixins.scss
 
 		and so do SASS mixins.
+
+	They are orderd like this because: variables might use fonts (e.g.: store your fontstacks in a variable), animations might use variables (e.g.: your colors) and mixins might use all of the above.
+
+	(If you don't know what mixins are, this boilerplate is not for you, [go check up on SASS first](http://sass-lang.com/), you'll love it!)
 
 2. #### SMACSS
 
@@ -92,6 +97,10 @@ The structure is as follows:
 
 	5. _theme.scss
 
+		If your site uses multiple themes, or you plan to in the future: separate all style rules that are specific to that theme in this file.
+
+		Like that, you could easily switch themes by creating _themeA.scss, _themeB.scss, &hellip;
+
 		> Theme Rules aren't as often used within a project and because of that, they aren't included as part of the core types.
 
 		> It is probably self-evident but a theme defines colours and images that give your application or site its look and feel. Separating the theme out into its own set of styles allows for those styles to be easily redefined for alternate themes.
@@ -100,7 +109,7 @@ The structure is as follows:
 
 	Style changes for print (_print.scss) and displays with high pixel density (e.g. retina displays on iPhone) (_2x.scss) go here.
 
-	Along with style and layout changes for higher resolution resolutions (_480.scss to _1382.scss) (responsive webdesign, maybe you've heard of it ;)
+	Along with style and layout changes for higher resolutions (_480.scss to _1382.scss) (responsive webdesign, maybe you've heard of it ;)
 
 	1. _print.scss
 	2. _480.scss
@@ -110,7 +119,7 @@ The structure is as follows:
 	6. _1382.scss
 	7. _x2.scss
 
-	In these files you will find following comments:
+	In these files you will find these comments:
 	
 		/* 480px and up rules */
 		// Base rules
@@ -123,9 +132,9 @@ The structure is as follows:
 
 	Notice the difference in comment styles here: `/* */` and `// `. In SASS, `/* */` comments will be compiled in the actual CSS, `// ` will not.
 
-	By putting comments like `/* 480px and up rules */` at the top of every file, they will be rendered in your `main.css` file, so you can easily trace back which file a certain rule came from when you're debugging.
+	By putting comments like `/* 480px and up rules */` at the top of every file, this comment will be rendered in your `main.css` file. With that, you can easily trace back which file a certain rule belongs to when you're debugging your code.
 
 
 Have a question? [Tweet Baloo!](https://twitter.com/baloobp)
 
-**Legal stuff:** I am a young webdeveloper trying to make a contribution to the web, not a lawyer. No copyright infringement intended, nor do I give you any guarantee for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I used any of it illegaly, please contact me and I'll change it as fast as I can.
+**Legal stuff:** I am a young frontend webdeveloper trying to make a contribution to the web, not a lawyer. No copyright infringement intended, nor do I give you any guarantee for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I used any of it illegaly, please contact me and I'll change it as fast as I can.
