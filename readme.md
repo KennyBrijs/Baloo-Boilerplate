@@ -1,7 +1,7 @@
 # Baloo Boilerplate
 ## Only the [bare necessities](http://www.youtube.com/watch?v=TcglnY_xGfc)
 
-Baloo Boilerplate is [HTML5 Boilerplate](http://html5boilerplate.com/) & [320andup](http://stuffandnonsense.co.uk/projects/320andup/) combined, stripped down and organized according to the [SMACSS](http://smacss.com/) principles using [SASS](http://sass-lang.com/).
+Baloo Boilerplate is [HTML5 Boilerplate](http://html5boilerplate.com/) & [320 and Up](http://stuffandnonsense.co.uk/projects/320andup/) combined, stripped down and organized according to the [SMACSS](http://smacss.com/) principles using [SASS](http://sass-lang.com/).
 
 Also, it uses [prefixfree.js](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) which is JavaScript file that the detects *which* vendor prefixes your visitors browser needs, and then crawls through your CSS adding **only these** prefixed rules your user’s browser needs to the CSS file.
 
@@ -113,7 +113,7 @@ The files are structured as follows:
 
 
 
-3. #### Responsive 320andup
+3. #### Responsive 320 and Up
 
 	Style changes for print (_print.scss) and displays with high pixel density (e.g. retina displays on iPhone) (_2x.scss) go here.
 
