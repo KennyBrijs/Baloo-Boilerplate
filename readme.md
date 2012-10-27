@@ -170,6 +170,18 @@ The files are structured as follows:
 
 
 
+### Things you *might* want to add
+
+More info on these is coming.
+
+- [picturefill.js](https://github.com/scottjehl/picturefill)
+	Responsive images the right way, it’s syntax lies very close to the pending W3C proposal.
+
+- [CSSComb](http://csscomb.com/)
+	Not a plugin for this boilerplate but for your code editor. Sorts your CSS properties so your code is uniform everywhere without having to worry about it. This increases it's readability and by that, it's maintainability.
+
+
+
 Have a question? [Tweet Baloo! (@baloobp)](https://twitter.com/baloobp)
 
 **Legal stuff:** I'm a young frontend webdeveloper trying to make a contribution to the web, not a lawyer, so this stuff is new for me. No copyright infringement intended, nor do I give any guarantees for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I used any of it illegaly, please contact me and I'll change it as fast as I can.
