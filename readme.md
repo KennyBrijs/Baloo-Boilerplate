@@ -5,9 +5,9 @@ Baloo Boilerplate is [HTML5 Boilerplate](http://html5boilerplate.com/) & [320 an
 
 Also, it uses [prefixfree.js](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) which allows you to use the official CSS3 syntax without having to worry about vendor prefixes like `-webkit-`, `-moz-` etc. It’s a JavaScript file that detects *which* vendor prefixes your visitors browser needs, and then crawls through your CSS adding **only the necessary** prefixed rules to the CSS file.
 
-What Baloo tries to do is: Give you what you **will** use so you can add what you *want* to use later on, instead of giving you a whole lot of things you **might** use so you need to *clean up* afterwards; or bear—no pun intended—with a messy project folder and prefab CSS code that conflicts with yours while you don’t even use it.
+What Baloo tries to do is: Give you what you **will** use so you can add what you **want** to use later on, instead of giving you a whole lot of things you **might** use so you need to **clean up** afterwards or bear with a messy project folder and prefab CSS code that conflicts with yours while you don’t even use it.
 
-It is not meant to be *something* for **everyone**, it’s meant to be *it* for **some** people: people who create [mobile-first](http://www.abookapart.com/products/mobile-first) responsive websites using [SASS](http://sass-lang.com/) and who want to write [maintainable an reusable code](http://smacss.com/).
+It is not meant to be **something** for **everyone**, it’s meant to be **it** for **some** people: people who create [mobile-first](http://www.abookapart.com/products/mobile-first) responsive websites using [SASS](http://sass-lang.com/) and who want to write [maintainable an reusable code](http://smacss.com/).
 
 This project is new: comments, questions and suggestions can be [tweeted to Baloo (@baloobp)](https://twitter.com/baloobp)
 
@@ -150,7 +150,7 @@ This boilerplate is meant to be used for mobile first development, so you might 
 
 1. **Base:** Style your HTML elements
 
-	So you got your raw HTML file: style your headings, paragraphs, links, &hellip;
+	So you got your raw HTML file: style your headings, paragraphs, links, &hellip; so they look like you want them to in **mobile** view.
 
 2. **Layout:** Create the **mobile** *layout* (not design) for your page’s sections
 
