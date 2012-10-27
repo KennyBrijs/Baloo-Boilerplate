@@ -7,7 +7,7 @@ Also, it uses [prefixfree.js](http://leaverou.github.com/prefixfree/) by [Lea Ve
 
 What Baloo tries to do is: Give you what you **will** use so you can add what you **want** to use later on, instead of giving you a whole lot of things you **might** use so you need to **clean up** afterwards or bear with a messy project folder and prefab CSS code that conflicts with yours while you don’t even use it.
 
-It is not meant to be **something** for **everyone**, it’s meant to be **it** for **some** people: people who create [mobile-first](http://www.abookapart.com/products/mobile-first) responsive websites using [SASS](http://sass-lang.com/) and who want to write [maintainable an reusable code](http://smacss.com/).
+It is not meant to be **something** for **everyone**, it’s meant to be **it** for **some people**: people who create [mobile-first](http://www.abookapart.com/products/mobile-first) responsive websites using [SASS](http://sass-lang.com/) and who want to write [maintainable an reusable code](http://smacss.com/).
 
 This project is new: comments, questions and suggestions can be [tweeted to Baloo (@baloobp)](https://twitter.com/baloobp)
 
@@ -25,15 +25,17 @@ This boilerplate is meant to be used for mobile first development, so you might 
 
 	Chances are there's not that much layout to be done, since most mobile layouts are just the HTML components right beneath each other.
 
-3. **Modules:** Create the look and layout for the modules (menus, buttons, sliders, &hellip;) of your site (once again, **mobile** view only)
+3. **Modules:** Create the look and layout for the reusable modules (menus, buttons, sliders, &hellip;) of your site (once again, **mobile** view only)
 
-4. **States:** Create the look and layout for the different elements in different states.
+4. **States:** Create the look and layout for the different elements in their different states.
 
-5. **Theme:** *If you have different themes**, design them here.
+5. **Theme:** *If you have different themes*, design them here.
 
-6. Go through **_480.scss** to **_1392.scss** and make layout and design adjustments that fit the certain screensizes.
+6. Create layout and design adjustments for different screen sizes in **_480.scss** to **_1392.scss**.
 
 	You will be adding a lot under the `// Layout rules` comments in these files, continue reading CSS Structure for more on that.
+
+7. Make adjustments for devices with high pixel density (e.g. retina displays on iPhone) and print in **_2x.scss** and **_print.scss**
 
 
 
