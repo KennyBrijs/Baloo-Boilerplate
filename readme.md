@@ -3,9 +3,11 @@
 
 Baloo Boilerplate is [HTML5 Boilerplate](http://html5boilerplate.com/) & [320andup](http://stuffandnonsense.co.uk/projects/320andup/) combined, stripped down and organized according to the [SMACSS](http://smacss.com/) principles using [SASS](http://sass-lang.com/).
 
-Also, it uses [prefixfree](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) so you don't need to wory about writing brow
+Also, it uses [prefixfree](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) so you don't need to wory about writing vendor prefixes (e.g. -webkit-, -moz-, &hellip;) over and over again.
 
-What it tries to do is: Give you what you **will** use so you can add what you *want* to use later on, instead ove giving you a whole lot of things you **might** use so you need to *remove* them afterwards, or bear (pun intended) with a messy project folder.
+What it tries to do is: Give you what you **will** use so you can add what you *want* to use later on, instead of giving you a whole lot of things you **might** use so you need to *remove* them afterwards, or bear—pun intended—with a messy project folder.
+
+This project is new, comments, questions and suggestions can be [tweeted to @baloobp](https://twitter.com/baloobp)
 
 
 
@@ -95,6 +97,6 @@ The structure is as follows:
 	By putting comments like `/* 480px and up rules */` at the top of every file, they will be rendered in your `main.css` file, so you can easily trace back which file a certain rule came from when you're debugging.
 
 
-Have a question? [Follow @baloobp! on Twitter](https://twitter.com/baloobp)
+Have a question? [Tweet Baloo!](https://twitter.com/baloobp)
 
 **Legal stuff:** I am a young webdeveloper trying to make a contribution to the web, not a lawyer. No copyright infringement intended, nor do I give you any guarantee for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I illegaly used any of it, please contact me and I'll change it as fast as I can.
