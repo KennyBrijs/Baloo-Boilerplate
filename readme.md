@@ -3,7 +3,7 @@
 
 Baloo Boilerplate is [HTML5 Boilerplate](http://html5boilerplate.com/) & [320andup](http://stuffandnonsense.co.uk/projects/320andup/) combined, stripped down and organized according to the [SMACSS](http://smacss.com/) principles using [SASS](http://sass-lang.com/).
 
-Also, it uses [prefixfree](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) so you don't need to wory about writing vendor prefixes over and over again (e.g. -webkit-, -moz-, &hellip;)
+Also, it uses [prefixfree.js](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) which is JavaScript file that the detects *which* vendor prefixes your visitors browser needs, and then crawls through your CSS adding **only these** prefixed rules your user’s browser needs to the CSS file.
 
 What it tries to do is: Give you what you **will** use so you can add what you *want* to use later on, instead of giving you a whole lot of things you **might** use so you need to *clean up* afterwards; or bear—no pun intended—with a messy project folder.
 
