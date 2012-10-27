@@ -3,11 +3,11 @@
 
 Baloo Boilerplate is [HTML5 Boilerplate](http://html5boilerplate.com/) & [320andup](http://stuffandnonsense.co.uk/projects/320andup/) combined, stripped down and organized according to the [SMACSS](http://smacss.com/) principles using [SASS](http://sass-lang.com/).
 
-Also, it uses [prefixfree](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) so you don't need to wory about writing vendor prefixes (e.g. -webkit-, -moz-, &hellip;) over and over again.
+Also, it uses [prefixfree](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) so you don't need to wory about writing vendor prefixes over and over again (e.g. -webkit-, -moz-, &hellip;)
 
-What it tries to do is: Give you what you **will** use so you can add what you *want* to use later on, instead of giving you a whole lot of things you **might** use so you need to *remove* them afterwards, or bear—pun intended—with a messy project folder.
+What it tries to do is: Give you what you **will** use so you can add what you *want* to use later on, instead of giving you a whole lot of things you **might** use so you need to *clean up* afterwards; or bear—no pun intended—with a messy project folder.
 
-This project is new, comments, questions and suggestions can be [tweeted to @baloobp](https://twitter.com/baloobp)
+This project is new: comments, questions and suggestions can be [tweeted to Baloo (@baloobp)](https://twitter.com/baloobp)
 
 
 
@@ -23,7 +23,7 @@ This project is new, comments, questions and suggestions can be [tweeted to @bal
 
 	3. scss
 
-		Sass files are here, see [CSS Structure](#css_structure)
+		Sass files are here (see “CSS Structure” beneath)
 
 2. images
 
