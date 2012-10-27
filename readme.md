@@ -148,21 +148,21 @@ The files are structured as follows:
 
 This boilerplate is meant to be used for mobile first development, so you might want to go through the SCSS files top to bottom. Of course you don't need to finish the first file 100% before you can go on to the next one, but consider it good practice:
 
-	1. **Base:** Style your HTML elements
+1. **Base:** Style your HTML elements
 
-		So you got your raw HTML file: style your headings, paragraphs, links, &hellip;
+	So you got your raw HTML file: style your headings, paragraphs, links, &hellip;
 
-	2. **Layout:** Create the **mobile** *layout* (not design) for your page’s sections
+2. **Layout:** Create the **mobile** *layout* (not design) for your page’s sections
 
-		Chances are there's not that much layout to be done, since most mobile layouts are just the HTML components right beneath each other.
+	Chances are there's not that much layout to be done, since most mobile layouts are just the HTML components right beneath each other.
 
-	3. **Modules:** Create the look and layout for the modules (menus, buttons, sliders, &hellip;) of your site (once again, **mobile** view only)
+3. **Modules:** Create the look and layout for the modules (menus, buttons, sliders, &hellip;) of your site (once again, **mobile** view only)
 
-	4. **States:** Create the look and layout for the different elements in different states.
+4. **States:** Create the look and layout for the different elements in different states.
 
-	5. **Theme:** *If you have different themes**, design them here.
+5. **Theme:** *If you have different themes**, design them here.
 
-	6. Go through **_480.scss** to **_1392.scss** and make layout and design adjustments that fit the certain screensizes.
+6. Go through **_480.scss** to **_1392.scss** and make layout and design adjustments that fit the certain screensizes.
 
 
 
