@@ -11,7 +11,7 @@ It is not meant to be **something** for **everyone**, it’s meant to be **it** 
 
 This project is new: comments, questions and suggestions can be [tweeted to Baloo (@baloobp)](https://twitter.com/baloobp)
 
-
+In the following sections we will be discussing *workflow*, *CSS structure*, *Folder structure* and some *things you might want to add*.
 
 ### Workflow
 
