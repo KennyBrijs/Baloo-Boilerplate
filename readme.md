@@ -7,11 +7,14 @@ Also, it uses [prefixfree](http://leaverou.github.com/prefixfree/) by [Lea Verou
 
 What it tries to do is: Give you what you **will** use so you can add what you *want* to use later on, instead of giving you a whole lot of things you **might** use so you need to *clean up* afterwards; or bear—no pun intended—with a messy project folder.
 
+It is not meant to be *something* for **everyone**, it’s meant to be *it* for **some** people: people who create [mobile-first](http://www.abookapart.com/products/mobile-first) responsive websites using [SASS](http://sass-lang.com/) and who want to write [maintainable an reusable code](http://smacss.com/).
+
 This project is new: comments, questions and suggestions can be [tweeted to Baloo (@baloobp)](https://twitter.com/baloobp)
 
 
 
 ### Folder Structure
+
 1. /css
 	1. /fonts
 
@@ -41,6 +44,7 @@ This project is new: comments, questions and suggestions can be [tweeted to Balo
 
 
 ### CSS Structure
+
 All the sass files are in the /css/scss folder and are imported in main.**scss**, which will compile to /css/main.**css**, in order to keep things organized.
 
 The files are structured as follows:
@@ -66,6 +70,8 @@ The files are structured as follows:
 	They are orderd like this because: variables might use fonts (e.g.: store your fontstacks in a variable), animations might use variables (e.g.: your colors) and mixins might use all of the above.
 
 	(If you don't know what mixins are, this boilerplate is not for you, [go check up on SASS first](http://sass-lang.com/), you'll love it!)
+
+
 
 2. #### SMACSS
 
@@ -105,6 +111,8 @@ The files are structured as follows:
 
 		> It is probably self-evident but a theme defines colours and images that give your application or site its look and feel. Separating the theme out into its own set of styles allows for those styles to be easily redefined for alternate themes.
 
+
+
 3. #### Responsive 320andup
 
 	Style changes for print (_print.scss) and displays with high pixel density (e.g. retina displays on iPhone) (_2x.scss) go here.
@@ -135,6 +143,29 @@ The files are structured as follows:
 	By putting comments like `/* 480px and up rules */` at the top of every file, this comment will be rendered in your `main.css` file. With that, you can easily trace back which file a certain rule belongs to when you're debugging your code.
 
 
-Have a question? [Tweet Baloo!](https://twitter.com/baloobp)
 
-**Legal stuff:** I am a young frontend webdeveloper trying to make a contribution to the web, not a lawyer. No copyright infringement intended, nor do I give you any guarantee for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I used any of it illegaly, please contact me and I'll change it as fast as I can.
+### Workflow
+
+This boilerplate is meant to be used for mobile first development, so you might want to go through the SCSS files top to bottom. Of course you don't need to finish the first file 100% before you can go on to the next one, but consider it good practice:
+
+	1. **Base:** Style your HTML elements
+
+		So you got your raw HTML file: style your headings, paragraphs, links, &hellip;
+
+	2. **Layout:** Create the **mobile** *layout* (not design) for your page’s sections
+
+		Chances are there's not that much layout to be done, since most mobile layouts are just the HTML components right beneath each other.
+
+	3. **Modules:** Create the look and layout for the modules (menus, buttons, sliders, &hellip;) of your site (once again, **mobile** view only)
+
+	4. **States:** Create the look and layout for the different elements in different states.
+
+	5. **Theme:** *If you have different themes**, design them here.
+
+	6. Go through **_480.scss** to **_1392.scss** and make layout and design adjustments that fit the certain screensizes.
+
+
+
+Have a question? [Tweet Baloo! (@baloobp)](https://twitter.com/baloobp)
+
+**Legal stuff:** I'm a young frontend webdeveloper trying to make a contribution to the web, not a lawyer, so this stuff is new for me. No copyright infringement intended, nor do I give any guarantees for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I used any of it illegaly, please contact me and I'll change it as fast as I can.
