@@ -13,33 +13,27 @@ This project is new: comments, questions and suggestions can be [tweeted to Balo
 
 
 
-### Folder Structure
+### Workflow
 
-1. /css
-	1. /fonts
+This boilerplate is meant to be used for mobile first development, so you might want to go through the SCSS files top to bottom. Of course you don't need to finish the first file 100% before you can go on to the next one, but consider it good practice:
 
-		Font files go here (in css folder because they are part of **styling** the page)
+1. **Base:** Style your HTML elements
 
-	2. /img
+	So you got your raw HTML file: style your headings, paragraphs, links, &hellip; so they look like you want them to in **mobile** view.
 
-		**Style** images go here (any image you link to in CSS like backgrounds etc.)
+2. **Layout:** Create the **mobile layout** (not design) for your page’s sections
 
-	3. /scss
+	Chances are there's not that much layout to be done, since most mobile layouts are just the HTML components right beneath each other.
 
-		Sass files are here (see “CSS Structure” beneath)
+3. **Modules:** Create the look and layout for the modules (menus, buttons, sliders, &hellip;) of your site (once again, **mobile** view only)
 
-2. /images
+4. **States:** Create the look and layout for the different elements in different states.
 
-	**Content** images go here (any image you link to in HTML)
+5. **Theme:** *If you have different themes**, design them here.
 
-3. /js
-	1. /coffee
+6. Go through **_480.scss** to **_1392.scss** and make layout and design adjustments that fit the certain screensizes.
 
-		CoffeeScript goes here (/js/coffee/main.coffee compiles to /js/main.js)
-
-	2. /vendor
-
-		JavaScript plugins go here (e.g. jQuery, slider plugins, &hellip;)
+	You will be adding a lot under the `// Layout rules` comments in these files, continue reading CSS Structure for more on that.
 
 
 
@@ -144,25 +138,33 @@ The files are structured as follows:
 
 
 
-### Workflow
+### Folder Structure
 
-This boilerplate is meant to be used for mobile first development, so you might want to go through the SCSS files top to bottom. Of course you don't need to finish the first file 100% before you can go on to the next one, but consider it good practice:
+1. /css
+	1. /fonts
 
-1. **Base:** Style your HTML elements
+		Font files go here (in css folder because they are part of **styling** the page)
 
-	So you got your raw HTML file: style your headings, paragraphs, links, &hellip; so they look like you want them to in **mobile** view.
+	2. /img
 
-2. **Layout:** Create the **mobile** *layout* (not design) for your page’s sections
+		**Style** images go here (any image you link to in CSS like backgrounds etc.)
 
-	Chances are there's not that much layout to be done, since most mobile layouts are just the HTML components right beneath each other.
+	3. /scss
 
-3. **Modules:** Create the look and layout for the modules (menus, buttons, sliders, &hellip;) of your site (once again, **mobile** view only)
+		Sass files are here (see “CSS Structure” beneath)
 
-4. **States:** Create the look and layout for the different elements in different states.
+2. /images
 
-5. **Theme:** *If you have different themes**, design them here.
+	**Content** images go here (any image you link to in HTML)
 
-6. Go through **_480.scss** to **_1392.scss** and make layout and design adjustments that fit the certain screensizes.
+3. /js
+	1. /coffee
+
+		CoffeeScript goes here (/js/coffee/main.coffee compiles to /js/main.js)
+
+	2. /vendor
+
+		JavaScript plugins go here (e.g. jQuery, slider plugins, &hellip;)
 
 
 
