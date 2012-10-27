@@ -3,6 +3,12 @@
 
 Baloo Boilerplate is [HTML5 Boilerplate](http://html5boilerplate.com/) & [320andup](http://stuffandnonsense.co.uk/projects/320andup/) combined, stripped down and organized according to the [SMACSS](http://smacss.com/) principles using [SASS](http://sass-lang.com/).
 
+Also, it uses [prefixfree](http://leaverou.github.com/prefixfree/) by [Lea Verou](https://twitter.com/LeaVerou) so you don't need to wory about writing brow
+
+What it tries to do is: Give you what you **will** use so you can add what you *want* to use later on, instead ove giving you a whole lot of things you **might** use so you need to *remove* them afterwards, or bear (pun intended) with a messy project folder.
+
+
+
 ### CSS Structure
 All the sass files are in the /css/scss folder and are imported in main.scss, which will compile to /css/main.css, in order to keep things organized.
 
@@ -37,7 +43,7 @@ The structure is as follows:
 
 	2. _layout.scss
 
-		Major layout rules (e.g. header, sidebar, contentarea). Not layout for modules (e.g. formfield positioning)
+		Major layout rules (e.g. header, sidebar, contentarea). Not layout for modules (e.g. formfield positioning).
 
 		> There is a distinction between layouts dictating the major and minor components of a page. The minor components—such as a callout, or login form, or a navigation item—sit within the scope of major components such as a header or footer.
 
@@ -45,7 +51,7 @@ The structure is as follows:
 
 		Layout and design for reusable components of your website.
 
-		> a Module is a more discrete component of the page. It is your navigation bars and your carousels and your dialogs and your widgets and so on. &hellip. Each Module should be designed to exist as a standalone component. In doing so, the page will be more flexible.
+		> A Module is a more discrete component of the page. It is your navigation bars and your carousels and your dialogs and your widgets and so on. &hellip; Each Module should be designed to exist as a standalone component. In doing so, the page will be more flexible.
 
 	4. _states.scss
 
@@ -61,9 +67,9 @@ The structure is as follows:
 
 3. #### Responsive 320andup
 
-	Style changes for print (_print.scss) and displays with high pixel density (_2x.scss) (e.g. retina displays on iPhone) go here.
+	Style changes for print (_print.scss) and displays with high pixel density (e.g. retina displays on iPhone) (_2x.scss) go here.
 
-	Along with style and layout changes for higher resolution resolutions (_480.scss to _1382.scss) (responsive webdesign, maybe you've heard about it ;)
+	Along with style and layout changes for higher resolution resolutions (_480.scss to _1382.scss) (responsive webdesign, maybe you've heard of it ;)
 
 	1. _print.scss
 	2. _480.scss
@@ -73,7 +79,7 @@ The structure is as follows:
 	6. _1382.scss
 	7. _x2.scss
 
-	In these files you will find following comments like this:
+	In these files you will find following comments:
 	
 		/* 480px and up rules */
 		// Base rules
@@ -82,7 +88,13 @@ The structure is as follows:
 		// State rules
 		// Theme rules
 	
-	in order to help you keep coding according to the SMACSS principles. 
+	in order to help you keep coding according to the SMACSS principles.
+
+	Notice the difference in comment styles here: `/* */` and `// `. In SASS, `/* */` comments will be compiled in the actual CSS, `// ` will not.
+
+	By putting comments like `/* 480px and up rules */` at the top of every file, they will be rendered in your `main.css` file, so you can easily trace back which file a certain rule came from when you're debugging.
 
 
-Have a question? [Tweet me!](https://twitter.com/kennybrijs)
+Have a question? [Follow @baloobp! on Twitter](https://twitter.com/baloobp)
+
+**Legal stuff:** I am a young webdeveloper trying to make a contribution to the web, not a lawyer. No copyright infringement intended, nor do I give you any guarantee for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I illegaly used any of it, please contact me and I'll change it as fast as I can.
