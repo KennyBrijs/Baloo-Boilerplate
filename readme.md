@@ -11,7 +11,36 @@ This project is new, comments, questions and suggestions can be [tweeted to @bal
 
 
 
-### CSS Structure
+### Folder Structure
+- css
+	- fonts
+
+		Font files that will be @font-faced go here
+
+	- img
+
+		**Style** images go here (any image you link to in CSS like backgrounds etc.)
+
+	- scss
+
+		Sass files are here, see [CSS Structure](#css_structure)
+
+- images
+
+	**Content** images go here (any image you link to in HTML)
+
+- js
+	- coffee
+
+		CoffeeScript goes here (/js/coffee/main.coffee compiles to /js/main.js)
+
+	- vendor
+
+		JavaScript plugins go here (e.g. slider plugins, &hellip;)
+
+
+
+### CSS Structure <a id="css_structure"/>
 All the sass files are in the /css/scss folder and are imported in main.scss, which will compile to /css/main.css, in order to keep things organized.
 
 The structure is as follows:
@@ -99,4 +128,4 @@ The structure is as follows:
 
 Have a question? [Tweet Baloo!](https://twitter.com/baloobp)
 
-**Legal stuff:** I am a young webdeveloper trying to make a contribution to the web, not a lawyer. No copyright infringement intended, nor do I give you any guarantee for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I illegaly used any of it, please contact me and I'll change it as fast as I can.
+**Legal stuff:** I am a young webdeveloper trying to make a contribution to the web, not a lawyer. No copyright infringement intended, nor do I give you any guarantee for support or that this boilerplate is foolproof. When you launch your project using it, it is your responsibility to test everything (the code you use and the code you write) thoroughly. The packages mentioned at the beginning of this document are not created by me, and I hereby wish to thank all the people who contributed to them. If I used any of it illegaly, please contact me and I'll change it as fast as I can.
