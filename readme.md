@@ -12,29 +12,29 @@ This project is new, comments, questions and suggestions can be [tweeted to @bal
 
 
 ### Folder Structure
-- css
-	- fonts
+1. css
+	1. fonts
 
 		Font files that will be @font-faced go here
 
-	- img
+	2. img
 
 		**Style** images go here (any image you link to in CSS like backgrounds etc.)
 
-	- scss
+	3. scss
 
 		Sass files are here, see [CSS Structure](#css_structure)
 
-- images
+2. images
 
 	**Content** images go here (any image you link to in HTML)
 
-- js
-	- coffee
+3. js
+	1. coffee
 
 		CoffeeScript goes here (/js/coffee/main.coffee compiles to /js/main.js)
 
-	- vendor
+	2. vendor
 
 		JavaScript plugins go here (e.g. slider plugins, &hellip;)
 
