@@ -175,7 +175,7 @@ The files are structured as follows:
 More info on these is coming.
 
 - [picturefill.js](https://github.com/scottjehl/picturefill)
-	Responsive images the right way, it’s syntax lies very close to the pending W3C proposal.
+	Responsive images the right way, [it’s syntax lies very close to the pending W3C proposal](http://www.netmagazine.com/features/road-responsive-images).
 
 - [CSSComb](http://csscomb.com/)
 	Not a plugin for this boilerplate but for your code editor. Sorts your CSS properties so your code is uniform everywhere without having to worry about it. This increases it's readability and by that, it's maintainability.
